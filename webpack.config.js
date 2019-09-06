@@ -19,10 +19,10 @@ module.exports={
         }),
         new vueLoaderPlugin()
     ],
-    // devServer: {
-    //     open:true,
-    //     port:3000
-    // },
+    devServer: {
+        open:true,
+        port:3000
+    },
     module:{//用来配置第三方loader模块
         rules:[
             //文件的匹配规则
